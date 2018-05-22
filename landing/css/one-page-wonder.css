@@ -1,6 +1,21 @@
 body {
   font-family: 'Lato';
 }
+.bg{
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  opacity: .3;
+  /* filter: blur(4px); */
+}
+
+p{
+  font-size: 18px;
+}
 
 h1,
 h2,
@@ -99,4 +114,25 @@ header.masthead {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+
+
+.mpg-become-footerBar{
+  text-align: center;
+  display: block;
+  width: 100%;
+  background: url("../img/footer-banner.png");
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  background-size: contain;
+  padding: 120px 0;
+  font-size: 50px;
+}
+
+.mpg-become-footerBar:hover{
+    background: url("../img/footer-banner-enter.png");
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: contain;
 }
